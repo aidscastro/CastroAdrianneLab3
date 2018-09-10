@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:textColorSecondary">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+
+    <style name="Button1">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:layout_marginEnd">9dp</item>
+        <item name="android:layout_marginStart">9dp</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor"> @color/TextColor </item>
+        <item name="android:textStyle"> bold </item>
+        <item name="android:colorControlHighlight">#AAAAAA</item>
+    </style>
+
+    <style name="textTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor"> @color/TextColor </item>
+    </style>
+
+    <style name="mainTitle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor"> @color/TextColor </item>
+    </style>
+
+    <style name="textContent">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor"> @color/TextColor </item>
+    </style>
+</resources>
